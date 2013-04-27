@@ -67,14 +67,14 @@ wru.test([
   },{
     name: 'different default',
     test: function () {
-      youShallNotPass['default'] = false;
+      youShallNotPass.maybe = true;
       wru.assert(
-        'not listed, shall not pass !',
+        'not listed, forced return, shall pass !',
         !youShallNotPass(
           'whatever'
         )
       );
-      youShallNotPass['default'] = true;
+      delete youShallNotPass.maybe;
     }
   }
 ]);

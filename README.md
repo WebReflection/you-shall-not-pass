@@ -15,16 +15,13 @@ It happens that you would like to filter something that if matches shall not pas
 
 The function accepts optionally no list, blacklist, or whitelist, and it gives precedence to the white one.
 
-However, if no list is provided and matches the input, the `youShallNotPass.default` is returned instead.
+However, if no list is provided and matches the input, the `youShallNotPass.maybe` is returned instead.
 
-To preserve the security intent, by default, `youShallNotPass(str)` returns true but if you want to rely the blacklist 100% feel free to chnge the value.
+To preserve the security intent, by maybe, `youShallNotPass(str)` returns true but if you want to rely the blacklist 100% feel free to chnge the value.
 
 ```javascript
-// if you don't care about non-ES5 browsers
-youShallNotPass.default = false;
-
-// if you support non ES5 browsers too ...
-youShallNotPass['default'] = false;
+// if you don't care about non checked things
+youShallNotPass.maybe = true;
 ```
 ### API
 ```javascript
