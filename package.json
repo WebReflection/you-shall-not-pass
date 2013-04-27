@@ -1,12 +1,26 @@
 {
-  "version": "0.0.0",
+  "version": "1.0.0",
   "name": "you-shall-not-pass",
-  "description": "",
+  "description": "a simple way to filter strings",
   "homepage": "https://github.com/WebReflection/you-shall-not-pass",
-  "keywords": [],
+  "keywords": [
+    "filter",
+    "white",
+    "black",
+    "list",
+    "listed",
+    "whitelist",
+    "blacklist",
+    "string",
+    "check",
+    "security",
+    "field",
+    "enable",
+    "disable"
+  ],
   "author": {
-    "name": "",
-    "web": ""
+    "name": "Andrea Giammarchi",
+    "web": "http://webreflection.blogspot.com/"
   },
   "repository": {
     "type": "git",

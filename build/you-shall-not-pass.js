@@ -1,2 +1,2 @@
 /*! (C) WebReflection Mit Style License */
-var main={};
+var youShallNotPass=function(){function t(e){return e.test(this)}function n(r,i,s){return e.concat(s||e).some(t,r)?!1:e.concat(i||e).some(t,r)||!!n["default"]}var e=[];return n["default"]=!0,n}();
